@@ -1,6 +1,6 @@
 {
   "name": "skrape-react-v1",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "React Library for Skrape Payment Gateway",
   "author": {
     "name": "Skrape Developers",
@@ -24,10 +24,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/colbyfayock/skrape-react-v1"
+    "url": "https://github.com/samowolabi/skrape-react.git"
   },
   "bugs": {
-    "url": "https://github.com/colbyfayock/skrape-react-v1/issues"
+    "url": "https://github.com/samowolabi/skrape-react.git/issues"
   },
   "dependencies": {
     "@babel/cli": "^7.14.8",

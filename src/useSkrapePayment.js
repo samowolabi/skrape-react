@@ -54,8 +54,8 @@ export default function useSkrapePayment(config) {
         iframeDiv.setAttribute("width", "100%");
         iframeDiv.setAttribute("height", "100%");
         iframeDiv.setAttribute("allow", "clipboard-read; clipboard-write");
-        iframeDiv.setAttribute('src', 'http://127.0.0.1:5501');
-        // iframeDiv.setAttribute('src', 'https://skrape-inline.vercel.app');
+        // iframeDiv.setAttribute('src', 'http://127.0.0.1:5501');
+        iframeDiv.setAttribute('src', 'https://skrape-inline.vercel.app');
         return iframeDiv;
     }
 
