@@ -1,0 +1,39 @@
+{
+  "name": "skrape-react-v1",
+  "version": "1.1.0",
+  "description": "React Library for Skrape Payment Gateway",
+  "author": {
+    "name": "Skrape Developers",
+    "email": "owolabisamuel15@gmail.com",
+    "url": "https://skrape.io/"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "react-hooks"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "bump": "npm version",
+    "example": "cd example && yarn install && yarn package",
+    "prepublishOnly": "yarn build",
+    "watch": "nodemon --watch src --exec \"yarn build\""
+  },
+  "license": "MIT",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colbyfayock/skrape-react-v1"
+  },
+  "bugs": {
+    "url": "https://github.com/colbyfayock/skrape-react-v1/issues"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "nodemon": "^2.0.12"
+  }
+}
