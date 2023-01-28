@@ -23,6 +23,7 @@ export default function SkrapeButton(config) {
         padding: '22px 32px', fontWeight: 600
     }
 
+
     // Select Button size from params or default
     const selectActiveButtonSize = () => {
         if (config.btnSize) {

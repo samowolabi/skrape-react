@@ -40,7 +40,7 @@ export default function useSkrapePayment(config) {
                 title: config.customization.title || null,
                 description: config.customization.description || null,
             },
-            callback_url: config.callback_url || null
+            callback_url: config.callback_url || null 
         }
     }
 
